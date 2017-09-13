@@ -1,0 +1,299 @@
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+body, html {
+	height: 100%
+	background-color: #fff;
+}
+
+header {
+	height: 126px;
+	text-align: center;
+	position: relative;
+}
+
+.header-text {
+	position: absolute;
+	color: #000;
+	bottom: 50%;
+	right: 50%;
+}
+
+.contents {
+	margin: 0 auto;
+}
+
+/*.image1 {
+	height: 417px;
+	width: 100%;
+}*/
+
+.top-content {
+	width: 100%;
+	height: 417px;
+}
+
+.top-content div {
+	height: 100%;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+.container:before,
+.container:after {
+	content:"";
+	display: block;
+}
+
+.container:after {
+	clear: both;
+}
+
+.container {
+	width: 1080px;
+	margin: 0 auto;
+	zoom: 1;
+}
+
+.left-content {
+	height: 1620px; 
+	width: 680px;
+	float: left;
+}
+
+.right-content {
+	height: 1020px;
+	width: 340px;
+	float: right;
+	background-color: rgb(239, 239, 239);
+	margin: 40px 0 0 0;
+	position: relative;
+}
+
+
+.footer {
+	background-color: #000;
+	margin: 0 auto;
+	font-size: 0;
+	letter-spacing: 0;
+	clear: both;
+	padding: 15px 0;
+}
+
+.footer-container {
+	display: inline-block;
+	vertical-align: top;
+	width: 500px;
+}
+
+ul {
+	list-style: none;
+	padding: 10px;
+}
+
+li {
+	padding-top: 27px;
+}
+
+.image2 {
+	float: left;
+	height: 116px;
+	width: 206px;
+}
+
+.date {
+	font-size: 13px;
+	font-family: "Helvetica";
+	color: rgb(153, 153, 153);
+	margin-left: 13px;
+}
+
+.title {
+	font-size: 18px;
+	font-family: "YuGothic";
+	color: #000;
+	font-weight: bold;
+	margin-left: 220px;
+	/*margin-bottom: -6px;
+	margin-top: 17px;*/
+}
+
+.title:hover {
+	color: rgb(231, 186, 47);
+}
+
+.text {
+	font-size: 13px;
+	font-family: "YuGothic";
+	color: #000;
+	font-weight: 100;
+}
+
+a {
+	text-decoration: none;
+	display: block;
+	margin-bottom: -6px;
+}
+
+.box4 {
+	text-align: center;
+	padding: 0px;
+	margin-top: 50px;
+}
+
+.button {
+	width: 400px;
+    background-color: rgb(51, 51, 51);
+    display: block;
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 3px;
+    position: relative;
+}
+
+.button:before {
+	content:"";
+	display: block;
+	width: 10px;
+	height: 10px;
+	border: 2px solid #fff;
+	transform: translateY(-50%) rotate(45deg);
+	border-left-width: 0;
+	border-bottom-width: 0;
+	position: absolute;
+	right: 10px;
+	top: 50%;
+}
+
+.box1 {
+	text-align: center;
+	margin-top: 20px;
+}
+
+.box2 {
+	text-align: center;
+	font-size: 24px;
+	font-family: "YuGothic";
+	margin-top: 25px;
+	display: block;
+	letter-spacing: 2px;
+	margin-bottom: -30px;
+}
+
+hr {
+	width: 300px;
+	color: #000;
+	display: inline-block;
+	margin: 13px;
+}
+
+.right-content li {
+	margin-top: 10px;
+
+}
+
+.box3 {
+	text-align: center;
+	margin-top: 16px;
+}
+
+.image3 {
+	float: left;
+	height: 63px;
+	width: 112px;
+	margin-left: 10px;
+}
+
+.text2 {
+	font-size: 13px;
+	font-family: "YuGothic";
+	color: #000;
+	margin-left: 131px;
+	line-height: 16px;
+	margin-bottom: 14px;
+}
+
+.date2 {
+	font-size: 12px;
+	font-family: "Helvetica";
+	color: rgb(153, 153, 153);
+	margin-top: -13px;
+	margin-left: 11px;
+	float: left;
+}
+
+.footertext1 {
+	color: #fff;
+	font-size: 13px;
+}
+
+.footertext2 {
+	color: #fff;	
+	font-size: 14px;
+	text-align: right;
+	display: block;
+	margin-right: -73px;
+}
+
+.footer-text-container {
+	display: inline-block;
+	
+}
+
+.footer-text-container:nth-child(2) {
+	margin-left: 10px;
+}
+
+.slick-prev {
+	left: 50px;
+	z-index: 5;
+}
+
+.slick-next {
+	right: 50px;
+}
+
+.gototop-container {
+	text-align: right;
+	margin-bottom: 65px;
+}
+
+.gototop {
+	width: 50px;
+	height: 50px;
+	position: relative;
+	background-color: transparent;
+	border: none;	
+	right: 78px;
+	top: 70px;
+}
+
+.gototop:focus {
+	outline: 0;
+}
+
+.gototop::before, .gototop::after {
+	display: block;
+	width: 14px;
+	height: 3px;
+	background-color: #000;
+	content:"";
+	position: absolute;
+}
+
+.gototop::before {
+	transform: rotate(-45deg);
+	left: 21px;
+}
+
+.gototop::after {
+	transform: rotate(45deg);
+	left: 30px;
+}
